@@ -91,9 +91,9 @@ footer {
 }
 
 /*Multimedia*/
-.videos__section {
+/* .videos__section { */
   /* min-width: 50%; Deprecado*/
-}
+/* } */
 
 .videos__section div {
   border-style: dotted;
@@ -109,10 +109,10 @@ footer {
   border-color: white;
 }
 
-.multimedia__section {
+/* .multimedia__section { */
   /* display: flex; Deprecado*/
   /* height: 100%; Deprecado*/
-}
+/* } */
 
 .images__section img {
   max-width: 100%;
