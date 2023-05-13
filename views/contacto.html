@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="main-header container h-100">
+      <img class="main-header__img" src="../images/jdm-logo-transparent-background.gif" alt="page logo">
+      <nav class="main-header__nav">
+        <!-- Lista no ordenada -->
+        <ul class="main-header__ul">
+          <li>
+            <button><a href="../index.html">Home</a></button>
+          </li>
+          <li>
+            <button><a href="historias.html">Historias</a></button>
+          </li>
+          <li>
+            <button><a href="contacto.html">Contacto</a></button>
+          </li>
+          <li>
+            <button><a href="multimedia.html">Multimedia</a></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!--Contenido-->
+    <div class="container h-100">
+      <section class="container" aria-label="Contacto">
+          <h2>Contactanos!</h2>
+          <div class="container container--w_80-percent">
+            <form class="contact__form" action="" method="post">
+              <ul>
+                <li>
+                  <label for="nameInput">Nombre</label>
+                  <input id="nameInput" type="text">
+                </li>
+                <li>
+                  <label for="lastnameInput">Apellido</label>
+                  <input id="lastnameInput" type="text">
+                </li>
+                <li class="textarea__li">
+                  <textarea placeholder="Escriba su mensaje aqui ..."></textarea>
+                </li>
+                <li class="email__li">
+                  <label for="emailInput">Email</label>
+                  <input id="emailInput" placeholder="example@gmail.com" type="email">
+                </li>
+              </ul>
+              
+              <input type="submit" value="enviar">
+            </form>
+          </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <h2>Footer</h2>
+    </div>
+  </footer>
+</body>
+</html>
