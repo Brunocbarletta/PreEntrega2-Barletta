@@ -69,7 +69,7 @@ footer {
   height: 100%
 }
 
-.container {
+.my-container {
   color: #999999;
   border-color: #ec1158;
   border-style: solid;
@@ -169,16 +169,16 @@ footer {
 
 
 /*Modificadores de clases*/
-.container--h_100 {
+.my-container--h_100 {
   height: 100px;
 }
-.container--mb_5 {
+.my-container--mb_5 {
   margin-bottom: 5px;
 }
-.container--mh_1000 {
+.my-container--mh_1000 {
   min-height: 1000px;
 }
-.container--w_80-percent {
+.my-container--w_80-percent {
   width: 80%;
 }
 
