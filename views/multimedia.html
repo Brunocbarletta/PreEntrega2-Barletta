@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
   <header>
-    <div class="main-header my-container h-100">
+    <div class="main-header my-container container-fluid">
       <img class="main-header__img" src="../images/jdm-logo-transparent-background.gif" alt="page logo">
       <nav class="main-header__nav">
         <!-- Lista no ordenada -->
@@ -32,9 +33,9 @@
   </header>
 
   <main>
-    <div class="my-container h-100">
-      <div class="multimedia__section" aria-label="Multimedia">
-        <section class="videos__section my-container" aria-label="Videos">
+    <div class="my-container container-fluid h-100">
+      <div class="row g-1 justify-content-around h-100">
+        <section class="videos__section col-11 col-sm-4 order-1 my-container" aria-label="Videos">
           <h2>Videos</h2>
           <div>
             <h3>Pasion por el JDM</h3>
@@ -46,7 +47,7 @@
           </div>
         </section>
   
-        <section class="images__section my-container" aria-label="Imagenes">
+        <section class="images__section col-11 col-sm-7 order-2 my-container" aria-label="Imagenes">
           <h2>Imagenes</h2>
           <img alt="Mitsubishi Evo IX" src="../images/mitsubishi evo 9 jdm.jpg">
           <img alt="Toyota 86 RocketBunny kit" src="../images/toyota-gt-86-rocketBunny-kit.jpg">
@@ -56,10 +57,10 @@
   </main>
 
   <footer class="main-footer">
-    <div class="my-container">
+    <div class="my-container container-fluid">
       <h2>Footer</h2>
     </div>
   </footer>
-
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

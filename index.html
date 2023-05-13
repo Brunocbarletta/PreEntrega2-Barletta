@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="main-header my-container h-100">
+    <div class="main-header my-container">
       <img class="main-header__img" src="images/jdm-logo-transparent-background.gif" alt="page logo">
       <nav class="main-header__nav">
         <!-- Lista de botones no ordenada -->
@@ -32,16 +32,28 @@
     </div>
   </header>
   <main>
-    <div class="home my-container h-100">
-      <div class="home-h2__section my-container"><h2>Home</h2></div>
-      <section class="home-last-news__section my-container" aria-label="Ultimas Noticias"><h2>Section</h2></section>
-      <article></article>
-      <aside class="home__aside my-container">
-        <img src="images/bridgestone_rueda.png" alt="Anuncio de bridgestone" width="100%" height="100%">
-      </aside> 
+    <div class="my-container h-100 d-flex flex-column">
+      <div class="row mb-1 g-0 flex-fill">
+        <div class="col">
+          <div class="my-container h-100">
+            <h2>Home</h2>
+          </div>
+        </div>    
+      </div>
+      <div class="row g-1 g-sm-0 flex-fill">
+        <div class="col-sm-9">
+          <section class="home-last-news__section my-container h-100" aria-label="Ultimas Noticias">
+            <h2>Section</h2>
+          </section>
+        </div>
+        <div class="col-sm-3 d-none d-sm-block">
+          <aside class="home__aside my-container h-100">
+            <img src="images/bridgestone_rueda.png" alt="Anuncio de bridgestone" width="100%" height="100%">
+          </aside> 
+        </div>
+      </div>
     </div>
   </main>
-  
   <footer class="main-footer">
     <div class="my-container">
       <h2>Footer</h2>
