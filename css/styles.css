@@ -1,8 +1,8 @@
 /*Elimino estilos por defecto que interfieren con el diseño*/
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  margin: 0px!important;
+  padding: 0px!important;
+  box-sizing: border-box!important;
 }
 
 ul {
@@ -63,7 +63,10 @@ footer {
   align-self: flex-end;
 }
 
-
+.main-header__ul{
+  padding: 0;
+  margin: 0;
+}
 .main-header__ul li{
   display: inline-block;
 }
@@ -71,7 +74,7 @@ footer {
 .main-header__img {
   height: 100px;
   width: 100px;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 
 .main-footer div{
@@ -79,15 +82,15 @@ footer {
 }
 
 .my-container {
-  color: #999999;
-  border-color: #ec1158;
-  border-style: solid;
-  border-width: 2px;
-  background-color: rgba(0, 0, 0, 0.500);
+  color: #999999!important;
+  border-color: #ec1158!important;
+  border-style: solid!important;
+  border-width: 2px!important;
+  background-color: rgba(0, 0, 0, 0.500)!important;
   /*border-radius: 10px;*/
-  padding: 5px;
+  /* padding: 5px; */
   /* margin: 2px; */
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 /*Multimedia*/
