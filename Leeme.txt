@@ -4,4 +4,4 @@ Git
 +Reglas de mensaje de commit:
 Agregar la clase a la que esta actualizado el proyecto en cada mensaje de commit
 EJ:
-"Clase-11 Cambios realizados."
+"Clase-11 <Cambios realizados.>"
