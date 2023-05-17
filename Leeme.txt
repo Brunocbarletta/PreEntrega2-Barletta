@@ -1,3 +1,9 @@
+
+
+Git
++El repositorio remoto al agregarlo con git add remote <name> <url> le di de name "repo_remoto"
+
++Reglas de mensaje de commit:
 Agregar la clase a la que esta actualizado el proyecto en cada mensaje de commit
 EJ:
 "Clase-11 Cambios realizados."
