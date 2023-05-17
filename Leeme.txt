@@ -1,5 +1,3 @@
-
-
 Git
 +El repositorio remoto al agregarlo con git add remote <name> <url> le di de name "repo_remoto"
 
