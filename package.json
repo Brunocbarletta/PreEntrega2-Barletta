@@ -1,0 +1,14 @@
+{
+  "name": "proy_final",
+  "version": "1.0.0",
+  "description": "Proyecto a presentar a lo largo del curso y al finalizar el mismo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Cesar Barletta",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

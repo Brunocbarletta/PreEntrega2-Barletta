@@ -1,7 +1,10 @@
-Git
-+El repositorio remoto al agregarlo con git add remote <name> <url> le di de name "repo_remoto"
++Git
+El repositorio remoto al agregarlo con git add remote <name> <url> le di de name "repo_remoto"
 
 +Reglas de mensaje de commit:
 Agregar la clase a la que esta actualizado el proyecto en cada mensaje de commit
 EJ:
 "Clase-11 <Cambios realizados.>"
+
++Sass
+Se instalo sass. Para correrlo uso <sass --watch scss:css> este comando tal y como esta despertara un watcher que transpile todos los archivos ".scss" de la carpeta "scss" en la carpeta "css". 
