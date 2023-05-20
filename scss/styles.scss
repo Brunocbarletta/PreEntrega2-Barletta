@@ -1,8 +1,5 @@
-root{
-    --main-color: #ec1158;
-}
-$main-page-color: #ec1158!important;
-
+@import "variables";
+@import "fonts";
 /*Elimino estilos por defecto que interfieren con el diseño*/
 * {
     margin: 0px!important;
@@ -87,40 +84,42 @@ $main-page-color: #ec1158!important;
   }
   
   .my-container {
-    color: #999999!important;
-    border-color: #ec1158!important;
+    color: $primary-color!important;
+    border-color: $secondary-color;
     border-style: solid!important;
     border-width: 2px!important;
-    background-color: rgba(0, 0, 0, 0.500)!important;
-    /*border-radius: 10px;*/
-    /* padding: 5px; */
-    /* margin: 2px; */
-    /* overflow: auto; */
+    background-color: $background-color!important;
+    // border-radius: 10px;
+    padding: 4px!important;
+    // margin: 2px; 
+    // overflow: auto;
   }
   
   /*Multimedia*/
-  /* .videos__section { */
-    /* min-width: 50%; Deprecado*/
-  /* } */
   
-  .videos__section div {
-    border-style: dotted;
-    border-width: 2px;
-    border-color: #999999;
-    padding: 5px;
-  }
+  // .videos__section {
+  //   min-width: 50%;
+  // }
+  
+  // .videos__section div {
+    //border-style: dotted;
+    //border-width: 2px;
+    //border-color: $contrast-color;
+    //padding: 5px;
+  // }
   
   .videos__section div iframe {
     width: 100%;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.3em;
     border-color: white;
   }
   
-  /* .multimedia__section { */
-    /* display: flex; Deprecado*/
-    /* height: 100%; Deprecado*/
-  /* } */
+  // Deprecado por boostrap
+  // .multimedia__section {
+  //   display: flex;
+  //   height: 100%;
+  // }
   
   .images__section img {
     max-width: 100%;
@@ -181,7 +180,7 @@ $main-page-color: #ec1158!important;
   }
   
   .historia__section h2, .historia__section h1 {
-    color: #ffe500;
+    color: $contrast-color;
   } 
   
   
@@ -198,8 +197,28 @@ $main-page-color: #ec1158!important;
   .my-container--w_80-percent {
     width: 80%;
   }
-  .algo{
-    background-color: #ffe500;
+  .nav-link.active.active--my_active{
+    color: $secondary-color!important;
+    font-weight: 500!important;
+    text-shadow: $my-active-text-shadow;
+  }
+ 
+
+  .my-link{
+    color: $secondary-color;
+    font-family: $links-font-family;
+    font-size: 1.2em;
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    &:hover{
+      opacity: 1;
+      text-decoration: underline 0.15em;
+    }
+  }
+
+  .empty{
+    opacity: 0;
   }
   /*Queries*/
   /*Smart phone*/
