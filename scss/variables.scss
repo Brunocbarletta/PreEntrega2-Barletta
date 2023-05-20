@@ -1,0 +1,12 @@
+@import "fonts";
+$primary-color: #999999;
+$secondary-color:  #ec1158;
+$contrast-color: #ffe500;
+$background-color: rgba(0, 0, 0, 0.500);
+$links-font-family: "Permanent Marker", cursive;
+$my-active-text-shadow: 0px 0px 20px $contrast-color;
+//Creada variable en css solo para tenerla en cuenta. No ingresa en el curso.
+:root{
+    --secondary-color-var: #ec1158;
+    --my-active-text-shadow-var: 0px 0px 20px $contrast-color;
+}

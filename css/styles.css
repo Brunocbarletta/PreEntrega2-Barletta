@@ -1,8 +1,17 @@
 @charset "UTF-8";
-root {
-  --main-color: #ec1158;
+@font-face {
+  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
+  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
+}
+:root {
+  --secondary-color-var: #ec1158;
+  --my-active-text-shadow-var: 0px 0px 20px $contrast-color;
 }
 
+@font-face {
+  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
+  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
+}
 /*Elimino estilos por defecto que interfieren con el diseño*/
 * {
   margin: 0px !important;
@@ -85,38 +94,21 @@ footer {
 
 .my-container {
   color: #999999 !important;
-  border-color: #ec1158 !important;
+  border-color: #ec1158;
   border-style: solid !important;
   border-width: 2px !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
-  /*border-radius: 10px;*/
-  /* padding: 5px; */
-  /* margin: 2px; */
-  /* overflow: auto; */
+  padding: 4px !important;
 }
 
 /*Multimedia*/
-/* .videos__section { */
-/* min-width: 50%; Deprecado*/
-/* } */
-.videos__section div {
-  border-style: dotted;
-  border-width: 2px;
-  border-color: #999999;
-  padding: 5px;
-}
-
 .videos__section div iframe {
   width: 100%;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.3em;
   border-color: white;
 }
 
-/* .multimedia__section { */
-/* display: flex; Deprecado*/
-/* height: 100%; Deprecado*/
-/* } */
 .images__section img {
   max-width: 100%;
 }
@@ -195,6 +187,29 @@ footer {
 
 .my-container--w_80-percent {
   width: 80%;
+}
+
+.nav-link.active.active--my_active {
+  color: #ec1158 !important;
+  font-weight: 500 !important;
+  text-shadow: 0px 0px 20px #ffe500;
+}
+
+.my-link {
+  color: #ec1158;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.2em;
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.my-link:hover {
+  opacity: 1;
+  text-decoration: underline 0.15em;
+}
+
+.empty {
+  opacity: 0;
 }
 
 /*Queries*/
