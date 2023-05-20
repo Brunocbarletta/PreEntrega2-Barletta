@@ -7,4 +7,4 @@ EJ:
 "Clase-11 <Cambios realizados.>"
 
 +Sass
-Se instalo sass. Para correrlo uso <sass --watch scss:css> este comando tal y como esta despertara un watcher que transpile todos los archivos ".scss" de la carpeta "scss" en la carpeta "css". 
+Se instalo sass. Para correrlo uso "sass scss:css" tambien esta incluido en un script del package json por lo que se puede correr el watcher con "npm run start".

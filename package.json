@@ -4,7 +4,9 @@
   "description": "Proyecto a presentar a lo largo del curso y al finalizar el mismo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch scss:css",
+    "sass": "sass"
   },
   "author": "Bruno Cesar Barletta",
   "license": "ISC",
