@@ -240,7 +240,7 @@ footer {
   --bs-btn-disabled-border-color: #f8f9fa;
   --bs-gradient: none;
   --bs-btn-font-weight: 500!important;
-  --bs-border-width: 3px!important;
+  --bs-border-width: 1px!important;
 }
 
 .control-text-overflow {
