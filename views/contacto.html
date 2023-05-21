@@ -10,9 +10,9 @@
 </head>
 <body>
   <header>
-    <div class="main-header my-container overflow-hidden">
+    <div class="main-header my-container overflow-hidden h-100">
       <nav class="col navbar navbar-expand-sm" data-bs-theme="dark">
-        <div class="container-fluid flex-nowrap">
+        <div class="container-fluid flex-nowrap h-100">
           <span class="navbar-brand mb-0 h1">
             <img class="main-header__img" src="../images/jdm-logo-transparent-background.gif" alt="page logo">
           </span>
@@ -50,8 +50,34 @@
     <!--Contenido-->
     <div class="my-container h-100">
       <section class="my-container" aria-label="Contacto">
-          <h2>Contactanos!</h2>
-          <div class="my-container my-container--w_80-percent">
+          <h1 class="display-6 control-text-overflow">Contactanos!</h1>
+          <div class="container-sm my-container d-inline-block">
+            <form>
+              <div class="row g-2">
+                <div class="col-12 col-sm-6">
+                  <label for="nameInput" class="form-label">Nombre</label>
+                  <input id="nameInput" class="form-control form-control-sm form-control-md" type="text">
+                </div>
+                <div class="col-12 col-sm-6">
+                  <label for="lastnameInput" class="form-label">Apellido</label>
+                  <input id="lastnameInput" class="form-control form-control-sm form-control-md" type="text">
+                </div>
+                <div class="col-12 col-sm-10">
+                  <textarea placeholder="Escriba su mensaje aqui ..." class="form-control form-control-sm form-control-md" rows="4"></textarea>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <label for="emailInput" class="form-label">Email</label>
+                  <input id="emailInput" class="form-control form-control-sm form-control-md" placeholder="example@gmail.com" type="email">
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-outline-light-jdm" type="submit" value="enviar">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          
+
+          <!-- <div class="my-container my-container--w_80-percent">
             <form class="contact__form" action="" method="post">
               <ul>
                 <li>
@@ -73,7 +99,7 @@
               
               <input type="submit" value="enviar">
             </form>
-          </div>
+          </div> -->
       </section>
     </div>
   </main>
