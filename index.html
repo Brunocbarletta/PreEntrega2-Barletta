@@ -16,11 +16,9 @@
           <span class="navbar-brand mb-0 h1">
             <img class="main-header__img" src="images/jdm-logo-transparent-background.gif" alt="page logo">
           </span>
-          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
           <button class="navbar-toggler m-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
           <div class="offcanvas offcanvas-end my-container align-self-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">JDM</h5>
@@ -28,24 +26,12 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav">
-                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
                 <li class="nav-item ms-2">
                   <a class="nav-link active active--my_active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item ms-2">
                   <a class="nav-link" href="views/historias.html">Historias</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li> -->
                 <li class="nav-item ms-2">
                   <a class="nav-link" href="views/contacto.html">Contacto</a>
                 </li>
@@ -57,76 +43,28 @@
           </div>
         </div>
       </nav>
-      <!-- <div class="row flex-fill"> -->
-        <!-- <div class="col-12 col-sm-2"> -->
-          <!-- <img class="main-header__img" src="images/jdm-logo-transparent-background.gif" alt="page logo"> -->
-        <!-- </div> -->
-        <!-- <div class="col"> -->
-          <!-- <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1">
-                <img class="main-header__img" src="images/jdm-logo-transparent-background.gif" alt="page logo">
-                JDM</span>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> -->
-          <!-- <nav class="main-header__nav"> -->
-            <!-- Lista de botones no ordenada -->
-            <!-- <ul class="main-header__ul"> -->
-              <!-- <li> -->
-                <!-- <button><a href="index.html">Home</a></button> -->
-              <!-- </li> -->
-              <!-- <li> -->
-                <!-- <button><a href="views/historias.html">Historias</a></button> -->
-              <!-- </li> -->
-              <!-- <li> -->
-                <!-- <button><a href="views/contacto.html">Contacto</a></button> -->
-              <!-- </li> -->
-              <!-- <li> -->
-                <!-- <button><a href="views/multimedia.html">Multimedia</a></button> -->
-              <!-- </li> -->
-            <!-- </ul> -->
-          <!-- </nav> -->
-        <!-- </div> -->
-      <!-- </div> -->
     </div>
   </header>
   <main>
     <div class="my-container h-100 d-flex flex-column">
-      <div class="row mb-1 g-0 flex-fill">
+      <section class="row mb-1 g-0 flex-fill">
         <div class="col">
           <div class="my-container h-100">
-            <h2>Home</h2>
+            <h2>Hot</h2>
+            <div class="hot-news row">
+              <div class="hot-new__div order-1 col-10 col-sm-5 my-container">
+                <img class="hot-new__img" src="images/bmw-e-36.webp" alt="bmw e36">
+                <h3 class="hot-new__h3">El mundo del automovilismo es muy interesante</h3>
+              </div>
+              <div class="hot-new__div order-2 col-10 col-sm-5 my-container">
+                <img class="hot-new__img" src="images/porsche-rsr-celeste.jpg" alt="porsche rsr celeste">
+                <h3 class="hot-new__h3">La historia de las siglas RSR en Porsche</h3>
+              </div>
+            </div>
           </div>
         </div>    
-      </div>
-      <div class="row g-1 g-sm-0 flex-fill">
+      </section>
+      <section class="row g-1 g-sm-0 flex-fill">
         <div class="col-sm-9">
           <section class="home-last-news__section my-container h-100" aria-label="Ultimas Noticias">
             <h2>Section</h2>
@@ -137,7 +75,7 @@
             <img src="images/bridgestone_rueda.png" alt="Anuncio de bridgestone" width="100%" height="100%">
           </aside> 
         </div>
-      </div>
+      </section>
     </div>
   </main>
   <footer class="main-footer">
