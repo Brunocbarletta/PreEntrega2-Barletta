@@ -10,19 +10,6 @@
   max-width: 100%;
 }
 
-.multimedia-link{
-  color: $secondary-color;
-  font-family: $links-font-family;
-  font-size: 1.2em;
-  cursor: pointer;
-  opacity: 0.9;
-  text-decoration: none;
-  &:hover{
-    opacity: 1;
-    text-decoration: underline 0.15em;
-  }
-}
-
 .empty{
   opacity: 0;
 }

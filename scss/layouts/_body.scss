@@ -45,6 +45,19 @@ footer {
   text-overflow: ellipsis;
 }
 
+.jdm-link{
+  color: $secondary-color;
+  font-family: $links-font-family;
+  font-size: 1.2em;
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: none;
+  &:hover{
+    opacity: 1;
+    text-decoration: underline 0.15em;
+  } 
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,

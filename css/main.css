@@ -92,6 +92,19 @@ footer {
   text-overflow: ellipsis;
 }
 
+.jdm-link {
+  color: #ec1158;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.2em;
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.jdm-link:hover {
+  opacity: 1;
+  text-decoration: underline 0.15em;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
@@ -302,19 +315,6 @@ footer {
 
 .images__section img {
   max-width: 100%;
-}
-
-.multimedia-link {
-  color: #ec1158;
-  font-family: "Permanent Marker", cursive;
-  font-size: 1.2em;
-  cursor: pointer;
-  opacity: 0.9;
-  text-decoration: none;
-}
-.multimedia-link:hover {
-  opacity: 1;
-  text-decoration: underline 0.15em;
 }
 
 .empty {
