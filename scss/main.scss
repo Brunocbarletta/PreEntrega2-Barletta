@@ -1,0 +1,12 @@
+/*Base*/
+@import "base/typo", "base/reset";
+/*Componentes*/
+@import "components/buttons";
+/*Layouts*/
+@import "layouts/body", "layouts/header","layouts/footer", "layouts/forms", "layouts/navigation";
+/*Utilities*/
+@import "utilities/variables.scss";
+/*Views*/
+@import "views/contacto", "views/historia", "views/historias", "views/home", "views/multimedia"; 
+/*Vendors*/
+@import "vendors/bootstrap";

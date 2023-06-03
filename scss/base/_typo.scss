@@ -1,11 +1,4 @@
-@font-face {
+@font-face{
   font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
   src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
 }
-:root {
-  --primary-color: #999999;
-  --secondary-color: #ec1158;
-  --my-active-text-shadow-var: 0px 0px 20px $contrast-color;
-}
-
-/*# sourceMappingURL=variables.css.map */

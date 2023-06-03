@@ -1,0 +1,97 @@
+ /*Home*/
+.hot-content{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  .hot-new__div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    &.order-1{
+      @media(min-width: 576px) {
+        a{
+          align-self: flex-end;
+          .hot-new__img{
+            border-top-left-radius: 25% 25%;
+            border-bottom-left-radius: 25% 25%;
+          }
+        }
+      }
+    }
+    &.order-2{
+      @media(min-width: 576px) {
+        a{
+          align-self: flex-start;
+          .hot-new__img{
+            border-top-right-radius: 25% 25%;
+            border-bottom-right-radius: 25% 25%;
+          }
+        }
+      }
+    }
+
+    a{
+      align-self: center;
+      .hot-new__img{
+        cursor: pointer;
+        max-height: 268px;
+        max-width: 400px;        
+        width: 100%;
+        &:hover{
+          border: 2px solid $secondary-color;
+        }
+      }
+    }
+
+    .hot-new__h3{
+      width: 100%;
+      overflow: hidden;
+      overflow-wrap: anywhere;
+      text-align: center;
+    }
+  }
+}
+.all-content{
+  display: flex;
+  flex-direction: column;
+  >article{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    @media (min-width: 992px) {
+      flex: 0 0 100px;
+    }
+    .content-tag{
+      display: inline-block;
+      position: absolute;
+      &.content-tag--image{
+        background: linear-gradient(45deg, $secondary-color, transparent);
+      }
+      &.content-tag--history{
+        background: linear-gradient(45deg, #0400ff, transparent);
+      }
+      &.content-tag--blog_post{
+        background: linear-gradient(45deg, steelblue, transparent);
+      }
+      
+    }
+    .content-description{
+      display: flex;
+      img{
+        max-width: 150px;
+        width: 100%;
+        max-height: 150px;
+        height: 100%;
+      }
+      span{
+        font-size: 15px;
+        &.chevron-icon{
+          align-self: center;
+        }
+      }
+    }
+    &:hover{
+      background: $secondary-color-box-shadow!important;
+    }
+  }
+}

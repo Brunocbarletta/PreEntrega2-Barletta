@@ -7,4 +7,4 @@ EJ:
 "Clase-11 <Cambios realizados.>"
 
 +Sass
-Se instalo sass. Para correrlo uso "sass scss:css" tambien esta incluido en un script del package json por lo que se puede correr el watcher con "npm run start".
+Se instalo sass. Para correrlo uso "sass scss/main:css" tambien esta incluido en un script del package json por lo que se puede correr el watcher con "npm run start".

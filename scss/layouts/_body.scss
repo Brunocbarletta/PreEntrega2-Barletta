@@ -1,0 +1,54 @@
+@import "../utilities/variables.scss";
+body{
+  min-height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 110px 3fr 3fr 150px;
+  grid-template-areas:
+  "header header header header"
+  "main main main main"
+  "main main main main"
+  "footer footer footer footer";
+  padding-right: 0px!important; //Fix: El Offcanvass del navBar de bootstrap agrega un padding de 17px al body.
+}
+  
+  
+/*grid areas de estructura*/
+header {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+main {
+  grid-column: 1/5;
+  grid-row: 2/4;
+}
+
+footer {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+/*Clases comunes a todas las paginas*/
+.my-container {
+  color: $primary-color!important;
+  border-color: $secondary-color!important;
+  border-style: solid!important;
+  border-width: 2px!important;
+  background-color: $background-color!important;
+  padding: 4px!important;
+}
+
+.control-text-overflow{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

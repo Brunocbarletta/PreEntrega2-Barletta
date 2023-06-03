@@ -1,0 +1,31 @@
+/*Contacto*/
+.contact__form label{
+	width: 100px;
+}
+.contact__form li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 47%;
+}
+
+.contact__form .textarea__li {
+    width: 65%;
+    display: block;
+}
+
+.contact__form .textarea__li textarea {
+	border: none;
+	width: 100%;
+	padding: 0px;
+	min-height: 100px;
+}
+
+.contact__form .email__li {
+	width: 98%;
+}
+
+.contact__form .email__li input {
+	width: 50%;
+}
