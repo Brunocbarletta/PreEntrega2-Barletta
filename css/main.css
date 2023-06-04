@@ -305,6 +305,10 @@ footer {
   background: rgba(236, 17, 88, 0.35) !important;
 }
 
+.home__aside img {
+  width: 100%;
+}
+
 /*Multimedia*/
 .videos__section div iframe {
   width: 100%;
@@ -319,6 +323,11 @@ footer {
 
 .empty {
   opacity: 0;
+}
+
+.error-container img {
+  height: 100%;
+  width: 100%;
 }
 
 /*Vendors*/
