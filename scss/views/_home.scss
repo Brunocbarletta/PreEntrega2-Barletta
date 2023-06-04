@@ -1,5 +1,13 @@
  /*Home*/
-.hot-content{
+.home{
+  .home-main-content__section{
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 300;
+    }
+  }  
+}
+ 
+.hot-content{ 
   align-self: center;
   display: flex;
   justify-content: center;

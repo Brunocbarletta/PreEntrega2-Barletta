@@ -215,6 +215,10 @@ footer {
 }
 
 /*Home*/
+.home .home-main-content__section h1, .home .home-main-content__section .h1, .home .home-main-content__section h2, .home .home-main-content__section .h2, .home .home-main-content__section h3, .home .home-main-content__section .h3, .home .home-main-content__section h4, .home .home-main-content__section .h4, .home .home-main-content__section h5, .home .home-main-content__section .h5, .home .home-main-content__section h6, .home .home-main-content__section .h6 {
+  font-weight: 300;
+}
+
 .hot-content {
   align-self: center;
   display: flex;
