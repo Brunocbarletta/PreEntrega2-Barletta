@@ -1,9 +1,14 @@
  /*Multimedia*/
-.videos__section div iframe {
-  width: 100%;
-  border-style: solid;
-  border-width: 0.3em;
-  border-color: white;
+.videos__section{
+  div{
+    flex-basis: 300px;
+    iframe {
+      width: 100%;
+      border-style: solid;
+      border-width: 0.3em;
+      border-color: white;
+    }
+  }
 }
 
 .images__section img {

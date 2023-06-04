@@ -3,6 +3,7 @@
 @font-face {
   font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
   src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
+  font-display: swap;
 }
 /*Elimino estilos por defecto que interfieren con el diseño*/
 * {
@@ -44,6 +45,7 @@ a {
 @font-face {
   font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
   src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
+  font-display: swap;
 }
 :root {
   --primary-color: #999999;
@@ -144,6 +146,7 @@ footer {
 @font-face {
   font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
   src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
+  font-display: swap;
 }
 :root {
   --primary-color: #999999;
@@ -310,6 +313,9 @@ footer {
 }
 
 /*Multimedia*/
+.videos__section div {
+  flex-basis: 300px;
+}
 .videos__section div iframe {
   width: 100%;
   border-style: solid;
