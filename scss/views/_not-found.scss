@@ -3,23 +3,9 @@
   flex-direction: column;
 
   img{
+    min-height: 254px;
+    min-width: 108px;
     height: 35%;
-    width: 35%;
     align-self: center;
-    /*xsm*/
-    @media(min-width: 350px){
-      height: 45%;
-      width: 35%;
-    }
-    /*sm*/
-    @media(min-width: 576px){
-      height: 35%;
-      width: 35%;
-    }
-    /*lg*/
-    @media(min-width: 992px){
-      height: 35%;
-      width: 25%;
-    }
   }
 }

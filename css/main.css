@@ -340,30 +340,10 @@ footer {
   flex-direction: column;
 }
 .error-container img {
+  min-height: 254px;
+  min-width: 108px;
   height: 35%;
-  width: 35%;
   align-self: center;
-  /*xsm*/
-  /*sm*/
-  /*lg*/
-}
-@media (min-width: 350px) {
-  .error-container img {
-    height: 45%;
-    width: 35%;
-  }
-}
-@media (min-width: 576px) {
-  .error-container img {
-    height: 35%;
-    width: 35%;
-  }
-}
-@media (min-width: 992px) {
-  .error-container img {
-    height: 35%;
-    width: 25%;
-  }
 }
 
 /*Vendors*/
