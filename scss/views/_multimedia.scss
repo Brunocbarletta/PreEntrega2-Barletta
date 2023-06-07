@@ -1,20 +1,27 @@
  /*Multimedia*/
-.videos__section{
-  div{
-    flex-basis: 300px;
-    iframe {
-      width: 100%;
-      border-style: solid;
-      border-width: 0.3em;
-      border-color: white;
+.multimedia-container{
+  :has(h2) >h2{
+    text-align: center;
+  }
+
+  .videos__section{
+    article{
+      flex-basis: 300px;
+      iframe {
+        width: 100%;
+        border-style: solid;
+        border-width: 0.3em;
+        border-color: white;
+      }
     }
   }
-}
 
-.images__section img {
-  max-width: 100%;
-}
+  .images__section img {
+    max-width: 100%;
+  }
 
-.empty{
-  opacity: 0;
+  .empty{
+    opacity: 0;
+  }
+
 }

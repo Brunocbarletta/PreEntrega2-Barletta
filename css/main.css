@@ -81,8 +81,6 @@ footer {
 /*Clases comunes a todas las paginas*/
 .my-container {
   color: #999999 !important;
-  border-color: #ec1158 !important;
-  border-style: solid !important;
   border-width: 2px !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
   padding: 4px !important;
@@ -107,6 +105,13 @@ footer {
   text-decoration: underline 0.15em;
 }
 
+.overflow-ellipsis {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
@@ -124,6 +129,7 @@ footer {
   max-width: 100px;
   min-height: 50px;
   min-width: 50px;
+  border-radius: 50% 50% 0 0;
 }
 
 .main-footer div {
@@ -191,7 +197,9 @@ footer {
 /*Historia*/
 .historia__section img {
   max-height: 500px;
+  width: max-content;
   max-width: 100%;
+  align-self: center;
 }
 
 .historia__section h2, .historia__section .h2, .historia__section h1, .historia__section .h1 {
@@ -317,21 +325,22 @@ footer {
 }
 
 /*Multimedia*/
-.videos__section div {
+.multimedia-container :has(h2, .h2) > h2, .multimedia-container :has(h2, .h2) > .h2 {
+  text-align: center;
+}
+.multimedia-container .videos__section article {
   flex-basis: 300px;
 }
-.videos__section div iframe {
+.multimedia-container .videos__section article iframe {
   width: 100%;
   border-style: solid;
   border-width: 0.3em;
   border-color: white;
 }
-
-.images__section img {
+.multimedia-container .images__section img {
   max-width: 100%;
 }
-
-.empty {
+.multimedia-container .empty {
   opacity: 0;
 }
 
