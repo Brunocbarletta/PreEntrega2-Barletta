@@ -309,6 +309,7 @@ footer {
   width: 100%;
   max-height: 150px;
   height: 100%;
+  object-fit: cover;
 }
 .all-content > article .content-description span {
   font-size: 15px;
