@@ -55,27 +55,8 @@ a {
 
 body {
   min-height: 1000px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 110px 3fr 3fr 150px;
-  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
   padding-right: 0px !important;
-}
-
-/*grid areas de estructura*/
-header {
-  grid-column: 1/5;
-  grid-row: 1/2;
-}
-
-main {
-  grid-column: 1/5;
-  grid-row: 2/4;
-}
-
-footer {
-  grid-column: 1/5;
-  grid-row: 4/5;
+  background-color: #999999 !important;
 }
 
 /*Clases comunes a todas las paginas*/
@@ -132,8 +113,23 @@ footer {
   border-radius: 50% 50% 0 0;
 }
 
-.main-footer div {
+.main-footer > div {
   height: 100%;
+}
+.main-footer > div .main-footer__img {
+  height: 100%;
+  width: 100%;
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 10px;
+  min-width: 10px;
+  border-radius: 50% 50% 0 0;
+}
+.main-footer > div .footer-font-08 {
+  font-size: 0.8rem;
+}
+.main-footer > div ul li a {
+  font-size: 0.7rem;
 }
 
 /*Inputs de formularios de bootstrap personalizado con tematica de la pagina*/
