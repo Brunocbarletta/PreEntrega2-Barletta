@@ -1,11 +1,8 @@
 @charset "UTF-8";
 /*Base*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
-/*Elimino estilos por defecto que interfieren con el diseño*/
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); /*Elimino estilos por defecto que interfieren con el diseño*/
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -42,11 +39,6 @@ a {
 }
 
 /*Layouts*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
 :root {
   --primary-color: #999999;
   --secondary-color: #ec1158;
@@ -190,11 +182,6 @@ body {
 }
 
 /*Utilities*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
 :root {
   --primary-color: #999999;
   --secondary-color: #ec1158;
