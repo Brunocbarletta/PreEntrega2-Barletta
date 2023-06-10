@@ -6,7 +6,7 @@ body{
   grid-template-columns: 100%;
   grid-template-rows: 110px 1fr auto;
   padding-right: 0px!important; //Fix: El Offcanvass del navBar de bootstrap agrega un padding de 17px al body.
-  background-color: $primary-color!important;
+  background-color: $primary-color-solid!important;
 }
   
 /*Clases comunes a todas las paginas*/
@@ -15,6 +15,9 @@ body{
   border-width: 2px!important;
   background-color: $background-color!important;
   padding: 4px!important;
+}
+.my-container--off_background{
+  background: transparent!important;
 }
 
 .control-text-overflow{

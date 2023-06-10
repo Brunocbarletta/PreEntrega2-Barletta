@@ -1,11 +1,8 @@
 @charset "UTF-8";
 /*Base*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
-/*Elimino estilos por defecto que interfieren con el diseño*/
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); /*Elimino estilos por defecto que interfieren con el diseño*/
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -42,11 +39,6 @@ a {
 }
 
 /*Layouts*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
 :root {
   --primary-color: #999999;
   --secondary-color: #ec1158;
@@ -59,7 +51,7 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 110px 1fr auto;
   padding-right: 0px !important;
-  background-color: #999999 !important;
+  background-color: #606060 !important;
 }
 
 /*Clases comunes a todas las paginas*/
@@ -68,6 +60,10 @@ body {
   border-width: 2px !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
   padding: 4px !important;
+}
+
+.my-container--off_background {
+  background: transparent !important;
 }
 
 .control-text-overflow {
@@ -100,10 +96,15 @@ body {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.main-header {
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+header .main-header {
   display: flex;
 }
-.main-header .main-header__img {
+header .main-header .main-header__img {
   height: 100px;
   width: 100px;
   height: 100%;
@@ -190,11 +191,6 @@ body {
 }
 
 /*Utilities*/
-@font-face {
-  font-family: Permanent Marker; /**El nombre que le pongo a la fuente*/
-  src: url(../assets/fonts/PermanentMarker-Regular.ttf); /*me descargo una fuente y lo pongo en una carpeta assets/font -> aca las fuentes <-*/
-  font-display: swap;
-}
 :root {
   --primary-color: #999999;
   --secondary-color: #ec1158;
